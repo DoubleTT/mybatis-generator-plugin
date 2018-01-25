@@ -20,6 +20,7 @@
 * [增量插件（IncrementsPlugin）](#14-增量插件)
 * [查询结果选择性返回插件（SelectSelectivePlugin）](#15-查询结果选择性返回插件)
 * [~~官方ConstructorBased配置BUG临时修正插件（ConstructorBasedBugFixPlugin）~~](#16-官方constructorbased配置bug临时修正插件)
+* [NumberComparePlugin](#17-NumberComparePlugin)
 
 ---------------------------------------
 Maven引用：  
@@ -1081,4 +1082,19 @@ public class Test {
     <!-- 官方ConstructorBased配置BUG临时修正插件 -->
     <plugin type="com.itfsw.mybatis.generator.plugins.ConstructorBasedBugFixPlugin" />
 </xml>
+```
+### 17. NumberComparePlugin
+```xml
+<xml>
+    <plugin type="com.ttarcher.mybatis.generator.plugins.NumberComparePlugin" />
+</xml>
+```
+This example shows how to generate a simple WHERE clause using the generated example class:
+```
+    TableExample example=new TableExample();
+    example.createCriteria().andNumberField1GreaterThan(Table.NumberColumn.numberField2); 
+```
+In either above example, the dynamically generated where clause will effectively be:
+```
+    WHERE number_field1 > number_field2;
 ```

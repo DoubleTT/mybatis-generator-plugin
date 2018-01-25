@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.itfsw</groupId>
+    <groupId>com.ttarcher</groupId>
     <artifactId>mybatis-generator-plugin</artifactId>
     <version>1.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Mybatis Generator Plugins</description>
-    <url>https://github.com/itfsw/mybatis-generator-plugin</url>
+    <url>https://github.com/ttarcher/mybatis-generator-plugin</url>
 
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ license ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <licenses>
@@ -199,21 +199,21 @@
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++developers++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <developers>
         <developer>
-            <name>hewei</name>
-            <email>hewei@itfsw.com</email>
-            <organization>itfsw</organization>
-            <organizationUrl>http://blog.itfsw.com</organizationUrl>
+            <name>Todd Tang</name>
+            <email>ttarcher@outlook.com</email>
+            <organization>com.ttarcher</organization>
+            <organizationUrl>https://github.com/ttarcher</organizationUrl>
             <timezone>+8</timezone>
         </developer>
     </developers>
 
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++scm++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <scm>
-        <connection>scm:git:https://github.com/itfsw/mybatis-generator-plugin.git</connection>
-        <developerConnection>scm:git:https://github.com/itfsw/mybatis-generator-plugin.git</developerConnection>
-        <url>https://github.com/itfsw/mybatis-generator-plugin</url>
-      <tag>HEAD</tag>
-  </scm>
+        <connection>scm:git:https://github.com/ttarcher/mybatis-generator-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/ttarcher/mybatis-generator-plugin.git</developerConnection>
+        <url>https://github.com/ttarcher/mybatis-generator-plugin</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++distribution++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <!--

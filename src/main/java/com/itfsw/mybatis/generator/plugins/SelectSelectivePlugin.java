@@ -184,7 +184,6 @@ public class SelectSelectivePlugin extends BasePlugin {
             selectByExampleSelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
         }
         selectByExampleSelectiveEle.addAttribute(new Attribute("parameterType", "map"));
-        selectByExampleSelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
 
         selectByExampleSelectiveEle.addElement(new TextElement("select"));
         if (stringHasValue(introspectedTable.getSelectByExampleQueryId())) {
@@ -214,7 +213,6 @@ public class SelectSelectivePlugin extends BasePlugin {
             selectByPrimaryKeySelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
         }
         selectByPrimaryKeySelectiveEle.addAttribute(new Attribute("parameterType", "map"));
-        selectByPrimaryKeySelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
 
         selectByPrimaryKeySelectiveEle.addElement(new TextElement("select"));
         if (stringHasValue(introspectedTable.getSelectByExampleQueryId())) {
@@ -255,7 +253,6 @@ public class SelectSelectivePlugin extends BasePlugin {
                 selectOneByExampleSelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
             }
             selectOneByExampleSelectiveEle.addAttribute(new Attribute("parameterType", "map"));
-            selectOneByExampleSelectiveEle.addAttribute(new Attribute("resultMap", introspectedTable.getBaseResultMapId()));
 
             selectOneByExampleSelectiveEle.addElement(new TextElement("select"));
             if (stringHasValue(introspectedTable.getSelectByExampleQueryId())) {

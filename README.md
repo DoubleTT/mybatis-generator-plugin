@@ -20,7 +20,7 @@
 * [增量插件（IncrementsPlugin）](#14-增量插件)
 * [查询结果选择性返回插件（SelectSelectivePlugin）](#15-查询结果选择性返回插件)
 * [~~官方ConstructorBased配置BUG临时修正插件（ConstructorBasedBugFixPlugin）~~](#16-官方constructorbased配置bug临时修正插件)
-* [NumberComparePlugin](#17-NumberComparePlugin)
+* [NumberComparePlugin](#17-numbercompareplugin)
 
 ---------------------------------------
 Maven引用：  

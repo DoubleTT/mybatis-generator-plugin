@@ -1086,7 +1086,7 @@ public class Test {
 ### 17. NumberComparePlugin
 ```xml
 <xml>
-    <plugin type="com.ttarcher.mybatis.generator.plugins.NumberComparePlugin" />
+    <plugin type="com.github.ttarcher.mybatis.generator.plugins.NumberComparePlugin" />
 </xml>
 ```
 This example shows how to generate a simple WHERE clause using the generated example class:

@@ -1,8 +1,6 @@
-package com.ttarcher.mybatis.generator.plugins;
+package com.github.ttarcher.mybatis.generator.plugins;
 
-import com.itfsw.mybatis.generator.plugins.ModelColumnPlugin;
 import com.itfsw.mybatis.generator.plugins.utils.BasePlugin;
-import com.itfsw.mybatis.generator.plugins.utils.PluginTools;
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.dom.java.*;

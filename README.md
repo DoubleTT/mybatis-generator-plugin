@@ -62,6 +62,26 @@ MyBatis Generator 参考配置（插件依赖应该配置在mybatis-generator-ma
 </plugin>
 ```
 ---------------------------------------
+With Gradle:
+```groovy
+plubins {
+    id "com.arenagod.gradle.MybatisGenerator" version "1.4"
+}
+
+dependencies {
+    mybatisGenerator 'org.mybatis.generator:mybatis-generator-core:1.3.6'
+    mybatisGenerator 'mysql:mysql-connector-java:5.1.44'
+    mybatisGenerator 'com.github.ttarcher:mybatis-generator-plugin:1.1.2'
+}
+
+mybatisGenerator {
+    overwrite = true
+    verbose = true
+    configFile = 'src/main/resources/mybatis/generatorConfig.xml'
+}
+```
+---------------------------------------
+
 ### 1. 查询单条数据插件
 对应表Mapper接口增加了方法  
 插件：

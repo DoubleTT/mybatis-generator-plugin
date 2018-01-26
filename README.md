@@ -26,9 +26,9 @@
 Maven引用：  
 ```xml
 <dependency>
-  <groupId>com.itfsw</groupId>
-  <artifactId>mybatis-generator-plugin</artifactId>
-  <version>1.1.1</version>
+    <groupId>com.github.ttarcher</groupId>
+    <artifactId>mybatis-generator-plugin</artifactId>
+    <version>1.1.2</version>
 </dependency>
 ```
 ---------------------------------------
